@@ -27,7 +27,8 @@ I want to become a good front-end developer, which can solve any problem without
 
 ## Code example
 
-```<div class="chat__items">
+```html
+<div class="chat__items">
     <a class="chat__item" href="#">
         <div class="site-contact">
             <div class="site-avatar site-avatar--light-blue">
