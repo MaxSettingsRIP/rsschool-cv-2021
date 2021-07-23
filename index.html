@@ -6,17 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header class="site-header">
+    <img src="images/rss-avatar.jpeg" alt="Avatar" width="320" height="240">
+    <h1 class="heading heading--h1">Koval Sergey</h1>
+  </header>
   <main>
-    <div class="site-container">
-      <section class="site-section">
-        <img src="images/rss-avatar.jpeg" alt="Avatar" width="640" height="480">
-        <h1 class="heading heading--h1">Koval Sergey</h1>
-      </section>
-
-      <section class="site-section" class="site-section">
+    <div class="site-container cv-container">
+      <section class="site-section contact-info">
         <h2 class="heading heading--h2">Contact info</h2>
         <ul class="site-list">
           <li class="site-list__item"><b>Email:</b> hdmaxset@gmail.com</li>
@@ -25,7 +28,7 @@
         </ul>
       </section>
 
-      <section class="site-section">
+      <section class="site-section about-info">
         <h2 class="heading heading--h2">About me</h2>
         <p class="site-text">I want to become a good front-end developer, which can solve any problem without problems.
           I
@@ -36,7 +39,7 @@
           use the most relevant technologies and practicies.</p>
       </section>
 
-      <section class="site-section">
+      <section class="site-section technical-skills">
         <h2 class="heading heading--h2">Technical Skills</h2>
         <ul class="site-list">
           <li class="site-list__item">HTML</li>
@@ -51,10 +54,12 @@
         </ul>
       </section>
 
-      <section class="site-section">
+      <section class="site-section code-example">
         <h2 class="heading heading--h2">Code example</h2>
-        <pre class="site-code-block">
+
         <code>
+          <pre class="code-block">
+
   &lt;div class="chat__items"&gt;
     &lt;a class="chat__item" href="#"&gt;
       &lt;div class="site-contact"&gt;
@@ -79,11 +84,12 @@
       &lt;/div&gt;
     &lt;/a&gt;
   &lt;/div&gt;
-        </code>
-      </pre>
+        </pre>
+      </code>
+
       </section>
 
-      <section class="site-section">
+      <section class="site-section work-experience">
         <h2 class="heading heading--h2">Work Experience</h2>
         <p class="site-text">I have about a year of web development experience. Almost all this time I have been working
           in a small company
@@ -94,14 +100,14 @@
         </p>
       </section>
 
-      <section class="site-section">
+      <section class="site-section education-info">
         <h2 class="heading heading--h2">Education</h2>
         <p class="site-text">In 2020, I graduated as a master’s degree from Donetsk National Technical University
           (Faculty
           of Computer Science and Technology, Software Engineering).</p>
       </section>
 
-      <section class="site-section">
+      <section class="site-section english-level">
         <h2 class="heading heading--h2">English level</h2>
         <p class="site-text">According to the site Ef Set, my level of English is in the range from B1 to B2. I can use
           the documentation in English without any problems and know many terms related to IT and Web-development. I am
@@ -111,10 +117,12 @@
     </div>
   </main>
   <footer class="site-footer">
-    <div class="site-container site-footer__inner">
-      <a href="https://github.com/MaxSettings">Github: @MaxSettings</a>
-      <span>23.07.2021</span>
-      <a href="https://rs.school/js/">
+    <div class="site-container site-footer__container">
+      <div class="site-footer__inner">
+        <a class="site-footer__link" href="https://github.com/MaxSettings">Github: @MaxSettings</a>
+        <span><b>23.07.2021</b></span>
+      </div>
+      <a class="site-footer__logo" href="https://rs.school/js/">
         <img src="https://rs.school/images/rs_school_js.svg" alt="RSS Logo" width="150" height="70">
       </a>
     </div>
