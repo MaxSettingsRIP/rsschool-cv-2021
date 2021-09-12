@@ -14,115 +14,103 @@
 
 <body>
   <header class="site-header">
-    <img src="images/rss-avatar.jpeg" alt="Avatar" width="320" height="240">
-    <h1 class="heading heading--h1">Koval Sergey</h1>
+    <img src="images/rss-avatar.jpeg" alt="Avatar">
+    <h1>Koval Sergey</h1>
   </header>
   <main>
-    <div class="site-container cv-container">
-      <section class="site-section contact-info">
-        <h2 class="heading heading--h2">Contact info</h2>
-        <ul class="site-list">
-          <li class="site-list__item"><b>Email:</b> hdmaxset@gmail.com</li>
-          <li class="site-list__item"><b>Github:</b> @MaxSettings</li>
-          <li class="site-list__item"><b>Telegram:</b> @slntLurker</li>
+    <div>
+      <section>
+        <h2>Contact info</h2>
+        <ul>
+          <li><b>Email:</b> hdmaxset@gmail.com</li>
+          <li><b>Github:</b> @MaxSettings</li>
+          <li><b>Telegram:</b> @slntLurker</li>
         </ul>
       </section>
 
-      <section class="site-section about-info">
-        <h2 class="heading heading--h2">About me</h2>
-        <p class="site-text">I want to become a good front-end developer, which can solve any problem without problems.
-          I
-          like front-end development and I have already managed to learn a lot of information and got a huge amount of
-          practice, both
-          during training and during work. And even now I don’t stop and continue to study in order to improve myself
-          and
-          use the most relevant technologies and practicies.</p>
+      <section>
+        <h2>About me</h2>
+        <p class="site-text">I have a goal to become a highly skilled frontend developer. Most of my knowledge in this
+          area came from self-study. I like Web development and I have already managed to learn a lot of information and
+          got a lot of practice, both during studying and during work. And now I continue to study in order to improve
+          myself and use the most relevant technologies and practices.</p>
       </section>
 
-      <section class="site-section technical-skills">
-        <h2 class="heading heading--h2">Technical Skills</h2>
-        <ul class="site-list">
-          <li class="site-list__item">HTML</li>
-          <li class="site-list__item">CSS</li>
-          <li class="site-list__item">JS (basics)</li>
-          <li class="site-list__item">BEM</li>
-          <li class="site-list__item">SASS, SCSS</li>
-          <li class="site-list__item">Git</li>
-          <li class="site-list__item">Gulp</li>
-          <li class="site-list__item">Figma, Avocode, Photoshop</li>
-          <li class="site-list__item">VS Code, WebStorm</li>
+      <section>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS (basics)</li>
+          <li>BEM</li>
+          <li>SASS, SCSS</li>
+          <li>Git</li>
+          <li>Gulp</li>
+          <li>Figma, Avocode, Photoshop</li>
+          <li>VS Code, WebStorm</li>
         </ul>
       </section>
 
-      <section class="site-section code-example">
-        <h2 class="heading heading--h2">Code example</h2>
+      <section>
+        <h2>Code example</h2>
 
         <code>
-          <pre class="code-block">
+          <pre>
 
-  &lt;div class="chat__items"&gt;
-    &lt;a class="chat__item" href="#"&gt;
-      &lt;div class="site-contact"&gt;
-        &lt;div class="site-avatar site-avatar--light-blue"&gt;
-          M
-        &lt;/div&gt;
-        &lt;div class="site-contact__inner"&gt;
-          &lt;h3 class="site-contact__name">#Managers&lt;/h3&gt;
-          &lt;p class="site-contact__message">Hello, Mark! I am writing to inspection.&lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;a class="chat__item chat__item--new-message" href="#" data-count="4"&gt;
-      &lt;div class="site-contact"&gt;
-        &lt;div class="site-avatar site-avatar--light-orange site-avatar--online"&gt;
-          D
-        &lt;/div&gt;
-        &lt;div class="site-contact__inner"&gt;
-          &lt;h3 class="site-contact__name">#Designers&lt;/h3&gt;
-          &lt;p class="site-contact__message">Hello. Can you drop the photo here?&lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-        </pre>
-      </code>
+    function decoder(sequence) {
+      let res = [];
+      let zeroesCount = 0;
+  
+      for (let i = 0; i &lt; sequence.length; i++) {
+        if (sequence[i] === "0") {
+          zeroesCount++;
+        } else {
+          res.push(parseInt(sequence.slice(i, i + zeroesCount + 1), 2) - 1);
+          i += zeroesCount;
+          zeroesCount = 0;
+        }
+      }
+  
+      return res;
+    }
+          </pre>
+        </code>
 
       </section>
 
-      <section class="site-section work-experience">
-        <h2 class="heading heading--h2">Work Experience</h2>
-        <p class="site-text">I have about a year of web development experience. Almost all this time I have been working
-          in a small company
-          that develop websites for state institutions. I know what semantic, responsive and cross-browser development
-          is
-          and I can work with layouts in Figma and Photoshop. I have experience writing basic JavaScript logic (such as
-          creating sliders, modals, burger-menus), working in a React project, and building a project component library.
+      <section>
+        <h2>Work Experience</h2>
+        <p>I have about a year of web development experience. Almost all this time I have been working
+          in a small company that develop websites for state institutions. I know what semantic, responsive and
+          cross-browser development is and I can work with layouts in Figma and Photoshop. I have experience writing
+          basic JavaScript logic (such as creating sliders, modals, burger-menus), working in a React project, and
+          building a project component library.
         </p>
       </section>
 
-      <section class="site-section education-info">
-        <h2 class="heading heading--h2">Education</h2>
-        <p class="site-text">In 2020, I graduated as a master’s degree from Donetsk National Technical University
+      <section>
+        <h2>Education</h2>
+        <p>In 2020, I graduated as a master’s degree from Donetsk National Technical University
           (Faculty
           of Computer Science and Technology, Software Engineering).</p>
       </section>
 
-      <section class="site-section english-level">
-        <h2 class="heading heading--h2">English level</h2>
-        <p class="site-text">According to the site Ef Set, my level of English is in the range from B1 to B2. I can use
+      <section>
+        <h2>English level</h2>
+        <p>According to the site Ef Set, my level of English is in the range from B1 to B2. I can use
           the documentation in English without any problems and know many terms related to IT and Web-development. I am
           still continuing to
           improve my English.</p>
       </section>
     </div>
   </main>
-  <footer class="site-footer">
-    <div class="site-container site-footer__container">
-      <div class="site-footer__inner">
-        <a class="site-footer__link" href="https://github.com/MaxSettings">Github: @MaxSettings</a>
+  <footer>
+    <div>
+      <div>
+        <a href="https://github.com/MaxSettings">Github: @MaxSettings</a>
         <span><b>23.07.2021</b></span>
       </div>
-      <a class="site-footer__logo" href="https://rs.school/js/">
+      <a href="https://rs.school/js/">
         <img src="https://rs.school/images/rs_school_js.svg" alt="RSS Logo" width="150" height="70">
       </a>
     </div>
