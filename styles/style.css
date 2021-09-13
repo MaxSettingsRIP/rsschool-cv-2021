@@ -6,3 +6,136 @@
 
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.main-container {
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+}
+
+.page-section {
+  padding: 16px 0;
+}
+
+.page-section:first-child {
+  padding-top: 32px;
+}
+
+.page-section:last-child {
+  padding-bottom: 48px;
+  border: 0;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.subtitle {
+  margin-bottom: 16px;
+
+  text-align: center;
+  color: #ffffff;
+
+  background: #000000;
+}
+
+.site-header {
+  padding: 32px 0;
+
+  background: #000;
+
+  color: #ffffff;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header__inner {
+  text-align: center;
+}
+
+.site-header img {
+  width: 200px;
+  margin-right: 96px;
+
+  border: 3px solid #fff;
+}
+
+.site-header__contacts-heading {
+  margin: 24px 0 16px;
+}
+
+.site-header__list li + li {
+  margin-top: 4px;
+}
+
+.custom-list {
+  padding-left: 8px;
+}
+
+.custom-list__item {
+  position: relative;
+
+  margin-bottom: 4px;
+  padding-left: 32px;
+}
+
+.custom-list__item::before {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+
+  width: 8px;
+  height: 8px;
+
+  background: #000000;
+
+  content: "";
+}
+
+.site-footer {
+  padding: 32px 0;
+
+  background: #373741;
+}
+
+.site-footer a {
+  display: inline-flex;
+  color: #ffffff;
+}
+
+.site-footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.code-block {
+  display: block;
+  background: #d5daea;
+}
