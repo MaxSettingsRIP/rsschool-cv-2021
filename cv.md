@@ -24,29 +24,30 @@ I want to become a good front-end developer, which can solve any problem without
 
 ## Code example
 
-```<div class="chat__items">
-    <a class="chat__item" href="#">
-        <div class="site-contact">
-            <div class="site-avatar site-avatar--light-blue">
-                M
-            </div>
-            <div class="site-contact__inner">
-                <h3 class="site-contact__name">#Managers</h3>
-                <p class="site-contact__message">Hello, Mark! I am writing to inspection.</p>
-            </div>
-        </div>
-    </a>
-    <a class="chat__item chat__item--new-message" href="#" data-count="4">
-        <div class="site-contact">
-            <div class="site-avatar site-avatar--light-orange site-avatar--online">
-                D
-            </div>
-            <div class="site-contact__inner">
-                <h3 class="site-contact__name">#Designers</h3>
-                <p class="site-contact__message">Hello. Can you drop the photo here?</p>
-            </div>
-        </div>
-    </a>
+```html
+<div class="chat__items">
+  <a class="chat__item" href="#">
+    <div class="site-contact">
+      <div class="site-avatar site-avatar--light-blue">M</div>
+      <div class="site-contact__inner">
+        <h3 class="site-contact__name">#Managers</h3>
+        <p class="site-contact__message">
+          Hello, Mark! I am writing to inspection.
+        </p>
+      </div>
+    </div>
+  </a>
+  <a class="chat__item chat__item--new-message" href="#" data-count="4">
+    <div class="site-contact">
+      <div class="site-avatar site-avatar--light-orange site-avatar--online">
+        D
+      </div>
+      <div class="site-contact__inner">
+        <h3 class="site-contact__name">#Designers</h3>
+        <p class="site-contact__message">Hello. Can you drop the photo here?</p>
+      </div>
+    </div>
+  </a>
 </div>
 ```
 
