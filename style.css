@@ -161,6 +161,8 @@ mark {
 .main-nav {
   margin-left: 200px;
   margin-top: 16px;
+
+  user-select: none;
 }
 
 .main-nav__list {
