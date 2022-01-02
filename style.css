@@ -94,6 +94,7 @@ mark {
   margin-bottom: 4px;
   padding-left: 32px;
 
+  line-height: 22px;
   font-weight: 500;
 }
 
@@ -328,12 +329,10 @@ mark {
 .page-footer__contacts a {
   font-size: 28px;
   color: #000000;
-
-  transition: 0.5s ease;
 }
 
 .page-footer__contacts a:hover {
-  opacity: 0.7;
+  transform: scale(0.9);
 }
 
 /* ----------- */
